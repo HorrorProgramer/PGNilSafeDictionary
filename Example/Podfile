@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PGNilSafeDictionary_Example' do
+  pod 'PGNilSafeDictionary', :path => '../'
+
+  target 'PGNilSafeDictionary_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
