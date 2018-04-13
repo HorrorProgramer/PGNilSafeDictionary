@@ -1,0 +1,16 @@
+PODS:
+  - PGNilSafeDictionary (0.1.0)
+
+DEPENDENCIES:
+  - PGNilSafeDictionary (from `../`)
+
+EXTERNAL SOURCES:
+  PGNilSafeDictionary:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PGNilSafeDictionary: 3ad689554e75f7bf276d83192818c6cf27ff86b0
+
+PODFILE CHECKSUM: c08b37a734eeee847fc09f89b06cf1c85fb45dc8
+
+COCOAPODS: 1.5.0

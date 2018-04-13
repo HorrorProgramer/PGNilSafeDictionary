@@ -1,0 +1,6 @@
+framework module Pods_PGNilSafeDictionary_Example {
+  umbrella header "Pods-PGNilSafeDictionary_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

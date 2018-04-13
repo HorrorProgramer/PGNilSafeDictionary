@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		046CE6342080C7640022745F /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 046CE62E2080C7640022745F /* ReplaceMe.m */; };
+		046CE6482080DA1F0022745F /* NSObject+SafeDictionry.m in Sources */ = {isa = PBXBuildFile; fileRef = 046CE6422080DA1E0022745F /* NSObject+SafeDictionry.m */; };
+		046CE6492080DA1F0022745F /* NSNull+SafeDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 046CE6432080DA1F0022745F /* NSNull+SafeDictionary.m */; };
+		046CE64A2080DA1F0022745F /* NSDictionary+nilSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 046CE6452080DA1F0022745F /* NSDictionary+nilSafe.m */; };
 		29C305FC756289AA0459C7EE /* Pods_PGNilSafeDictionary_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DB81A4FB7BEB3C3CF166F7 /* Pods_PGNilSafeDictionary_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -37,7 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		14819DE7525607B374AE0C65 /* PGNilSafeDictionary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PGNilSafeDictionary.podspec; path = ../PGNilSafeDictionary.podspec; sourceTree = "<group>"; };
+		046CE62E2080C7640022745F /* ReplaceMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ../../PGNilSafeDictionary/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		046CE6422080DA1E0022745F /* NSObject+SafeDictionry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+SafeDictionry.m"; path = "../../PGNilSafeDictionary/Classes/NSObject+SafeDictionry.m"; sourceTree = "<group>"; };
+		046CE6432080DA1F0022745F /* NSNull+SafeDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSNull+SafeDictionary.m"; path = "../../PGNilSafeDictionary/Classes/NSNull+SafeDictionary.m"; sourceTree = "<group>"; };
+		046CE6442080DA1F0022745F /* NSNull+SafeDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSNull+SafeDictionary.h"; path = "../../PGNilSafeDictionary/Classes/NSNull+SafeDictionary.h"; sourceTree = "<group>"; };
+		046CE6452080DA1F0022745F /* NSDictionary+nilSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+nilSafe.m"; path = "../../PGNilSafeDictionary/Classes/NSDictionary+nilSafe.m"; sourceTree = "<group>"; };
+		046CE6462080DA1F0022745F /* NSObject+SafeDictionry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+SafeDictionry.h"; path = "../../PGNilSafeDictionary/Classes/NSObject+SafeDictionry.h"; sourceTree = "<group>"; };
+		046CE6472080DA1F0022745F /* NSDictionary+nilSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+nilSafe.h"; path = "../../PGNilSafeDictionary/Classes/NSDictionary+nilSafe.h"; sourceTree = "<group>"; };
+		14819DE7525607B374AE0C65 /* PGNilSafeDictionary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PGNilSafeDictionary.podspec; path = ../PGNilSafeDictionary.podspec; sourceTree = "<group>"; };
 		286CD17B5204870120700474 /* Pods-PGNilSafeDictionary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PGNilSafeDictionary_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-PGNilSafeDictionary_Example/Pods-PGNilSafeDictionary_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5CF246D8BF691A563983727F /* Pods-PGNilSafeDictionary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PGNilSafeDictionary_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PGNilSafeDictionary_Tests/Pods-PGNilSafeDictionary_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* PGNilSafeDictionary_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PGNilSafeDictionary_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,9 +72,9 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		63F755E78323ABCD2D792A74 /* Pods_PGNilSafeDictionary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PGNilSafeDictionary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7ACDCE6A625CC1CB524822C8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7ACDCE6A625CC1CB524822C8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A108BE5328906677960A906C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A108BE5328906677960A906C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A7AFF3CF6F0D6A2A4BF007A1 /* Pods-PGNilSafeDictionary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PGNilSafeDictionary_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PGNilSafeDictionary_Example/Pods-PGNilSafeDictionary_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D9DB81A4FB7BEB3C3CF166F7 /* Pods_PGNilSafeDictionary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PGNilSafeDictionary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E61FDD507BFBA95A4EBF3CF0 /* Pods-PGNilSafeDictionary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PGNilSafeDictionary_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PGNilSafeDictionary_Tests/Pods-PGNilSafeDictionary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -95,6 +106,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		046CE62A2080C73B0022745F /* PGNilSafeDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				046CE62E2080C7640022745F /* ReplaceMe.m */,
+				046CE6472080DA1F0022745F /* NSDictionary+nilSafe.h */,
+				046CE6452080DA1F0022745F /* NSDictionary+nilSafe.m */,
+				046CE6442080DA1F0022745F /* NSNull+SafeDictionary.h */,
+				046CE6432080DA1F0022745F /* NSNull+SafeDictionary.m */,
+				046CE6462080DA1F0022745F /* NSObject+SafeDictionry.h */,
+				046CE6422080DA1E0022745F /* NSObject+SafeDictionry.m */,
+			);
+			name = PGNilSafeDictionary;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +157,7 @@
 		6003F593195388D20070C39A /* Example for PGNilSafeDictionary */ = {
 			isa = PBXGroup;
 			children = (
+				046CE62A2080C73B0022745F /* PGNilSafeDictionary */,
 				6003F59C195388D20070C39A /* PGAppDelegate.h */,
 				6003F59D195388D20070C39A /* PGAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -247,6 +273,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = PGNilSafeDictionary;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = UYSP7CMKP7;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -355,8 +384,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				046CE6482080DA1F0022745F /* NSObject+SafeDictionry.m in Sources */,
+				046CE64A2080DA1F0022745F /* NSDictionary+nilSafe.m in Sources */,
 				6003F59E195388D20070C39A /* PGAppDelegate.m in Sources */,
+				046CE6492080DA1F0022745F /* NSNull+SafeDictionary.m in Sources */,
 				6003F5A7195388D20070C39A /* PGViewController.m in Sources */,
+				046CE6342080C7640022745F /* ReplaceMe.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -485,6 +518,7 @@
 			baseConfigurationReference = A7AFF3CF6F0D6A2A4BF007A1 /* Pods-PGNilSafeDictionary_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UYSP7CMKP7;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PGNilSafeDictionary/PGNilSafeDictionary-Prefix.pch";
 				INFOPLIST_FILE = "PGNilSafeDictionary/PGNilSafeDictionary-Info.plist";
@@ -500,6 +534,7 @@
 			baseConfigurationReference = 286CD17B5204870120700474 /* Pods-PGNilSafeDictionary_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UYSP7CMKP7;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PGNilSafeDictionary/PGNilSafeDictionary-Prefix.pch";
 				INFOPLIST_FILE = "PGNilSafeDictionary/PGNilSafeDictionary-Info.plist";

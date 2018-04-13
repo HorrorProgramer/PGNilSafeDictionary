@@ -1,0 +1,6 @@
+framework module PGNilSafeDictionary {
+  umbrella header "PGNilSafeDictionary-umbrella.h"
+
+  export *
+  module * { export * }
+}
